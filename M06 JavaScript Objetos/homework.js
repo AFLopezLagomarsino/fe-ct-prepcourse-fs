@@ -22,7 +22,10 @@ function nuevoUsuario(nombre, email, password) {
    // Este debe tener las propiedades: "nombre", "email" y "password" con sus respectivos valores.
    // Retornar el objeto.
    // Tu código:
-   var usuario = {nombre: nombre, email: email, password: password}
+   var usuario = {
+      nombre: nombre, 
+      email: email, 
+      password: password}
    return usuario
 }
 
